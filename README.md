@@ -35,12 +35,12 @@ mvn spring-boot:run
 ```
 -> Access the application at: http://localhost:8080  (change the port if you want to)
 ## How It Works
-1 - User clicks "Sign in with GitHub"
-2 - Application redirects to GitHub's authorisation endpoint
-3 - After authentication, GitHub redirects back with an authorisation code
-4 - Spring Security exchanges the code for an access token
-5 - The access token is used to fetch user data from GitHub's API
-6 - User profile information is displayed
+<li> User clicks "Sign in with GitHub" </li>
+<li> Application redirects to GitHub's authorisation endpoint </li>
+<li>  After authentication, GitHub redirects back with an authorisation code </li>
+<li> Spring Security exchanges the code for an access token </li>
+<li> The access token is used to fetch user data from GitHub's API </li>
+<li> User profile information is displayed </li>
 
 ## Project Structure
 <pre>
