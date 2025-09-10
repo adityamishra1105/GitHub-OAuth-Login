@@ -18,12 +18,13 @@ Thymeleaf
 Bootstrap 5
 ```
 ## Configuration
-1 - Go to GitHub Settings > Developer Settings > OAuth Apps
-2 - Create a new OAuth application with:
-3 - Homepage URL: http://localhost:8080
-4 - Authorisation callback URL: http://localhost:8080/login/oauth2/code/github
--> Copy the Client ID and Client Secret
--> Update src/main/resources/application.properties:
+<li> 1 - Go to GitHub Settings > Developer Settings > OAuth Apps </li>
+<li> 2 - Create a new OAuth application with: </li>
+<li> 3 - Homepage URL: http://localhost:8080 </li>
+<li> 4 - Authorisation callback URL: http://localhost:8080/login/oauth2/code/github </li>
+<li> -> Copy the Client ID and Client Secret
+-> Update src/main/resources/application.properties: </li>
+
 ```bash
 spring.security.oauth2.client.registration.github.client-id=YOUR_CLIENT_ID
 spring.security.oauth2.client.registration.github.client-secret=YOUR_CLIENT_SECRET
