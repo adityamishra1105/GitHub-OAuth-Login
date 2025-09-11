@@ -1,5 +1,7 @@
 <h1 align="center"> GitHub OAuth Login Implementation </h1>
 
+This project implements a complete OAuth 2.0 authentication system with GitHub integration. It showcases the Authorization Code flow, where users can sign in with their GitHub accounts, and the application retrieves and displays their profile information. Built with Spring Boot, Spring Security, and Thymeleaf, this project demonstrates real-world OAuth implementation skills that are valuable for web development roles.
+
 ## Features
 ```bash
 1 - Complete OAuth 2.0 Authorisation Code flow implementation
